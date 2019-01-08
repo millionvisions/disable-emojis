@@ -1,14 +1,14 @@
 <?php declare( strict_types = 1 );
 
 /*
- * Plugin Name: 	Disable Emojis
- * Plugin URI: 		https://github.com/millionvisions/disable-emojis/
- * Author: 		    MillionVisions
- * Author URI: 		https://github.com/millionvisions
+ * Plugin Name:     Disable Emojis
+ * Plugin URI:      https://github.com/millionvisions/disable-emojis/
+ * Author:          MillionVisions
+ * Author URI:      https://github.com/millionvisions
  * License:         MIT
  * License URI:     https://github.com/millionvisions/portfolio-theme/blob/master/LICENSE
  * Text Domain:     mv-disable-emojis
- * Version: 		0.1.0
+ * Version:         0.1.0
  */
 
 /*
