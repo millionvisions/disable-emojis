@@ -1,0 +1,28 @@
+{
+    "name": "millionvisions/disable-emojis",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "johninamio",
+            "email": "johninamio@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.2"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "MillionVisions\\DisableEmojis\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MillionVisions\\DisableEmojis\\UnitTests": "tests/src/"
+        }
+    }
+}
