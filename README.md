@@ -5,7 +5,7 @@ Disables emojis in WordPress as a 'must use' Plugin.
 
 ## Installation
 ```bash
-$ composer install millionvisions/disable-emojis --save
+$ composer require millionvisions/disable-emojis
 ```
 
 ## Changelog
