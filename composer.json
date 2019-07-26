@@ -1,6 +1,6 @@
 {
     "name": "millionvisions/disable-emojis",
-    "type": "wordpress-plugin",
+    "type": "wordpress-muplugin",
     "authors": [
         {
             "name": "johninamio",
@@ -11,8 +11,5 @@
     "minimum-stability": "dev",
     "require": {
         "php": "~7.2"
-    },
-    "require-dev": {
-
     }
 }
