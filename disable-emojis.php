@@ -26,11 +26,11 @@ namespace MillionVisions\DisableEmojis;
 defined( 'ABSPATH' ) or die;
 
 /**
+ * @since   0.1.0
+ *
  * @hooked  action  init
  *
  * @return  void
- *
- * @since   0.1.0
  */
 function remove_action_hooks() : void {
     \remove_action( 'admin_print_scripts',  'print_emoji_detection_script' );
@@ -42,11 +42,11 @@ function remove_action_hooks() : void {
 \add_action( 'init', __NAMESPACE__ . '\\remove_action_hooks' );
 
 /**
+ * @since   0.1.0
+ *
  * @hooked  action  init
  *
  * @return  void
- *
- * @since   0.1.0
  */
 function remove_filter_hooks() : void {
     \remove_filter( 'comment_text_rss', 'wp_staticize_emoji' );
@@ -57,12 +57,12 @@ function remove_filter_hooks() : void {
 \add_action( 'init', __NAMESPACE__ . '\\remove_filter_hooks' );
 
 /**
+ * @since   0.1.0
+ *
  * @hooked  filter  tiny_mce_plugins
  *
  * @param   array   $plugins
  * @return  array
- *
- * @since   0.1.0
  */
 function remove_tiny_mce_plugin( array $plugins ) : array {
 
